@@ -1,0 +1,44 @@
+/* 1. Aspectos gerais da página */
+body {
+  width: 960px;               /* a. Tamanho fixo da página */
+  margin: 0 auto;             /* centraliza horizontalmente */
+  font-family: sans-serif;    /* b. Fonte geral sans-serif */
+}
+
+p {
+  text-indent: 1em;           /* c. Indenta parágrafos em 1em */
+}
+
+/* 2. Títulos */
+h1, h2, h3 {
+  text-align: center;         /* ou use "right" se preferir */
+}
+
+h1 {
+  font-size: 1.8rem;          /* a. Tamanho do h1 */
+}
+
+h2 {
+  font-size: 1.4rem;          /* b. Tamanho do h2 */
+}
+
+h3 {
+  font-size: 1.2rem;          /* c. Tamanho do h3 */
+}
+
+/* 3. Seções de resumo e principal */
+
+/* Seção de resumo: <div id="zen-summary"> */
+#zen-summary {
+  text-align: center;         /* a. Alinhamento do resumo */
+}
+
+/* Seção principal: <div id="zen-preamble"> */
+#zen-preamble p {
+  line-height: 1.5;           /* b. Espaçamento entre linhas */
+}
+
+/* 4. Abreviaturas em small-caps */
+abbr, acronym {
+  font-variant: small-caps;
+}
