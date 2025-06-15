@@ -1,0 +1,14 @@
+/* Paleta base */
+body {
+  background-color: #e8f5e9;
+  color: #1b5e20;
+  font-family: Arial, sans-serif;
+}
+
+/* Links em destaque */
+a {
+  color: #66bb6a;
+}
+a:hover {
+  color: #388e3c;
+}
